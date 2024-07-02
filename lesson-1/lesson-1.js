@@ -78,7 +78,7 @@ MenuItem.prototype.render = function () {
   );
 };
 
-const item1 = new MenuItem("/", "Главная");
+const item1 = new MenuItem("/main", "Главная");
 const item2 = new MenuItem("/cart", "Корзина");
 const item3 = new MenuItem("/goods", "Карточки товаров");
 const item4 = new MenuItem("/contacts", "Контакты");
